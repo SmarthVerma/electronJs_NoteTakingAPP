@@ -1,6 +1,6 @@
 declare global {
   interface Window {
     // electron: ElectronAPI
-    context: {}
+    context: object
   }
 }
